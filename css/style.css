@@ -1,0 +1,109 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex: 1;
+  margin-bottom: 50px;
+  margin-top: 16px;
+  align-items: center;
+}
+
+footer {
+  position: fixed;
+  width: 100vw;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.page-footer {
+  padding-top: 0;
+}
+
+.logo-view {
+  align-items: center;
+}
+
+.nav-btn {
+  padding: 16px;
+}
+
+.nav-btn a {
+  width: 100%;
+}
+
+.brand-logo img {
+  height: inherit;
+}
+
+.logo-header {
+  height: 15vh;
+}
+
+.logo-header img {
+  height: inherit;
+  padding: 8px;
+}
+
+.small-text {
+  font-size: smaller;
+}
+
+.card-col {
+  height: auto;
+}
+
+.card-col .card {
+  height: 100%;
+}
+
+.card-col .card .card-content {
+  height: 20vh;
+  overflow: auto;
+}
+
+.sidebar {
+  height: inherit;
+  position: relative;
+  justify-content: center;
+}
+
+.sidebar .background {
+  position: absolute;
+  opacity: 0.7;
+  height: inherit;
+  width: 90%;
+  z-index: -1;
+}
+
+.sidebar .background img {
+  height: inherit;
+  width: 100%;
+  object-fit: cover;
+}
+
+.sidebar .logo {
+  width: 100%;
+  z-index: 99;
+}
+
+.responsive-h1 {
+  margin-top: 8px;
+  font-size: 8vh;
+}
+
+h1 i {
+  height: inherit;
+}
+
+.section .row {
+  margin-bottom: 0;
+}
+
+.parallax-container {
+  height: 150px;
+}
