@@ -13,16 +13,6 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-/*Contenido*/
-#contenido {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    height: 100vh;
-  }
-
-
-
 /*Header*/
 #header{
     background: #D6E4E5;
@@ -72,130 +62,13 @@ a{
     margin-right: 20px;
 }
 
-/*Empresas*/
-#empresas{
-    background-color: #D6E4E5;
-    color: #000000;
-    border-radius: 25px;
-    border: 1px solid black;
-    width: 450px;
-    height: 250px;
+/*Contenido*/
+#contenido {
     display: flex;
-    justify-content:center;
-    align-items:center;
-    text-align: center;
-    transition-duration: 0.3s;
-    margin-right: auto;
-    margin-left: 50px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-
-#empresas_2 p:nth-of-type(1){
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#empresas_2 p:nth-of-type(2){
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-#empresas_2 p:nth-of-type(3){
-    font-size: 20px;
-}
-
-#empresas:hover {
-    background-color: #e6eeef;
-    width: 460px;
-    height: 260px;
-}
-
-#empresas:hover img{
-    filter: contrast(1.2);
-}
-
-/*Publicidad*/
-
-#publici{
-    background-color: #D6E4E5;
-    border-radius: 25px;
-    border: 1px solid black;
-    color: #000000;
-    width: 450px;
-    height: 250px;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    text-align: center;
-}
-
-#publici_2 p:nth-of-type(1){
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#publici_2 p:nth-of-type(2){
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-#publici_2 p:nth-of-type(3){
-    font-size: 20px;
-}
-
-#publici:hover {
-    background-color: #e6eeef;
-    width: 460px;
-    height: 260px;
-}
-
-#publici:hover img{
-    filter: contrast(1.2);
-}
-
-/*Soporte*/
-
-#soporte{
-    background-color: #D6E4E5;
-    border-radius: 25px;
-    border: 1px solid black;
-    color: #000000;
-    width: 450px;
-    height: 250px;
-    display: flex;
-    justify-content:center;
-    align-items:center;
-    text-align: center;
-    margin-left: auto;
-    margin-right: 50px;
-}
-
-#soporte_2 p:nth-of-type(1){
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-#soporte_2 p:nth-of-type(2){
-    font-size: 20px;
-    margin-bottom: 5px;
-}
-
-#soporte_2 p:nth-of-type(3){
-    font-size: 20px;
-}
-
-#soporte:hover {
-    background-color: #e6eeef;
-    width: 460px;
-    height: 260px;
-}
-
-#soporte:hover img{
-    filter: contrast(1.2);
-}
-
 
 /*Botones menu*/
 

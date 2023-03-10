@@ -14,7 +14,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
   <!--CUSTOM CSS-->
-  <link rel="stylesheet" type="text/css" href="css/contacto.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
 </head>
 <body>
   <!-- Contenedor General -->
@@ -39,56 +39,13 @@
   </div>
   <hr>  
       <div id="contenido">
-
-         <!--Empresas-->
-         <a id="link_empresas" href="mailto:skynetforbusines@skynet.com">
-        <div id="empresas">
-          <div id="empresas_1">
-            <img id="empresario" src="img/Empresas.png" height="150px"/>
-          </div>
-          
-          <div id="empresas_2">
-            <h1>Skynet para Empresas</h1>
-            <p>Jesús Pizano Hernandez</p>
-            <p>Email:skynetforbusines@skynet.com</p>
-            <p>Telefono: 5612908765</p>
-          </div>
-        </div>
-        </a>
-
-        <!--Publicidad-->
-        <a href="mailto:skynetpublicity@skynet.com">
-        <div id="publici">
-          <div id="publici_1">
-            <img id="publicitario" src="img/Publici.png" height="150px"/>
-          </div>
-          
-          <div id="publici_2">
-            <h1>Publicidad y Negocios</h1>
-            <p>Alondra Huerta Avila</p>
-            <p>Email:skynetpublicity@skynet.com</p>
-            <p>Telefono: 5612912765</p>
-          </div>
-          
-        </div>
-        </a>
-        <!--Soporte-->
-        <a href="mailto:skynetsupport@skynet.com">
-        <div id="soporte">
-          <div id="soporte_1">
-            <img id="soportetec" src="img/Soporte.png" height="150px"/>
-          </div>
-          
-          <div id="soporte_2">
-            <h1>Soporte Técnico</h1>
-            <p>Gerardo Lopez Suñiga</p>
-            <p>Email:skynetsupport@skynet.com</p>
-            <p>Telefono: 5612912265</p>
-          </div>
-          
-        </div>
-        </a>
-
+        <form action="php/validar.php" method="post">
+            <h1>Iniciar Sesión</h1>
+            <input class="controls" type="email" name="Correo" id="Correo" placeholder="Ingrese su Correo" required>
+            <input class="controls" type="password" name="txtPassword" id="txtPassword" placeholder="Ingrese su Contraseña" required>
+            <button id="send" name="login" value="login">Iniciar Sesión</button>
+            <p><a href="sign.html">¿No tienes cuenta?</a></p>
+        </form>
       </div>
       
     <footer class="footer">
