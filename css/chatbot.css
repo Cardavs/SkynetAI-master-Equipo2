@@ -17,7 +17,7 @@ body{
 #header{
     background: #D6E4E5;
     width: 100% !important;
-    height: 70px;
+    height: auto;
     display: grid;
 }
 
@@ -44,7 +44,7 @@ body{
     margin-top: 10px;
 } 
 
-li{
+nav li{
     list-style: none;
 }
 
@@ -88,16 +88,17 @@ a{
   transition-duration: 0.3s;
   bottom: 0;
   margin: 50px;
-  padding: 10px;
+  padding: 20px;
   width: 650px;
 }
 
 /*importante*/
 
-/* #importante{
+#importante{
   
-   
-} */
+   padding-left: 50px;
+}
+
 
 #importante p:nth-of-type(1) {
   font-size: 26px;

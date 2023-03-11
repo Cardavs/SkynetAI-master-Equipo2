@@ -21,7 +21,7 @@ body{
 #header{
     background: #D6E4E5;
     width: 100% !important;
-    height: 70px;
+    height: auto;
     display: grid;
 }
 
@@ -59,7 +59,14 @@ a{
 #login {
     margin-top: 20px;
     margin-right: 20px;
-    float:left;
+    /* height: auto; */
+    /* display: flex; 
+   flex-direction: row; 
+   justify-content: space-around; 
+   flex-flow: wrap; 
+   align-items: center;  
+
+    float:left; */
 }
 
 #login a{
