@@ -1,160 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Skynet AI</title>
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
 
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      type="text/css"
-      rel="stylesheet"
-      href="css/materialize.min.css"
-      media="screen,projection"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header>
-      <!-- NAVBAR -->
-      <nav>
-        <div class="nav-wrapper cyan lighten-3">
-          <a
-            style="height: inherit"
-            href="#!"
-            class="brand-logo hide-on-large-only"
-            ><img src="img/skynetai_mini.png" alt="Skynet AI logo"
-          /></a>
-          <a href="#" class="sidenav-trigger" data-target="side-menu"
-            ><i class="material-icons">menu</i></a
-          >
-          <ul class="left hide-on-med-and-down">
-            <li>
-              <a href="#"><i class="material-icons left">home</i>Inicio</a>
-            </li>
-            <li>
-              <a href="chatbot.html"
-                ><i class="material-icons left">chat</i>Nuestro producto</a
-              >
-            </li>
-            <li>
-              <a href="info.html"
-                ><i class="material-icons left">info</i>Información</a
-              >
-            </li>
-            <li>
-              <a href="aboutus.html"
-                ><i class="material-icons left">emoji_people</i>Acerca de
-                nosotros</a
-              >
-            </li>
-          </ul>
-          <div
-            style="padding-right: 8px"
-            class="right tooltipped"
-            data-position="left"
-            data-tooltip="Ayuda"
-          >
-            <a href="ayuda.html"><i class="material-icons">help</i></a>
-          </div>
-        </div>
-      </nav>
-      <!-- END NAVBAR -->
-      <!-- SIDENAV -->
-      <ul class="sidenav" id="side-menu">
-        <li>
-          <div class="container center hide-on-small-only">
-            <a href="#"
-              ><img
-                class="circle"
-                style="height: 15vh"
-                src="img/skynetai_mini.png"
-                alt="Skynet AI logo"
-            /></a>
-          </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú Principal</title>
+  <!--FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&display=swap" rel="stylesheet">
+  <!--CUSTOM CSS-->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+  <!-- Contenedor General -->
+  <div id="header">
+    <nav>
+      <ul>
+        <li id="logos">
+            <img src="img/skynetai_mini.png" height="40px"/>
+            <h1>Skynet AI</h1>
+            <div id="menu">
+                <a class="pulse" href="index.html">Inicio</a>
+                <a class="pulse" href="nosotros.html">Acerca de nosotros</a>
+                <a class="pulse" href="contacto.html">Contacto</a>
+            </div>
         </li>
-        <li>
-          <a href="#"><i class="material-icons">home</i>Inicio</a>
-        </li>
-        <li>
-          <a href="chatbot.html"
-            ><i class="material-icons left">chat</i>Nuestro producto</a
-          >
-        </li>
-        <li>
-          <a href="info.html"
-            ><i class="material-icons left">info</i>Información</a
-          >
-        </li>
-        <li>
-          <a href="aboutus.html"
-            ><i class="material-icons left">emoji_people</i>Acerca de
-            nosotros</a
-          >
-        </li>
-        <li><div class="divider"></div></li>
-        <li>
-          <a href="ayuda.html"><i class="material-icons">help</i>Ayuda</a>
+        <li id="login">
+            <a id="log" href="login.html">Log In</a>
+            <a id="sign" href="sign.html">Sign Up</a>
+            <a href="ayudas.html" id="ayuda" class="ayuda"><img src="img/ayuda.png" alt="Icono de Ayuda" height="25px"></a>
         </li>
       </ul>
-      <!-- END SIDENAV -->
-      <!-- LOGO -->
-      <div class="container center hide-on-med-and-down logo-header">
-        <img src="img/skynetai_nobg.png" alt="Skynet AI logo" />
-      </div>
-      <!-- END LOGO -->
-    </header>
-    <!-- FIN HEADER -->
+    </nav>
+  </div>
+  <hr>  
+      <div id="contenido">
 
-    <!-- CONTENIDO PRINCIPAL -->
-    <main style="display: block; margin-top: 0">
-      <div class="parallax-container">
-        <div class="parallax"><img src="img/dalle_wallpaper.png" /></div>
-      </div>
-      <!-- NAV BUTTONS -->
-      <div class="section white">
-        <div class="container">
-          <div class="nav-btn">
-            <a class="waves-effect waves-light btn-large" href="chatbot.html"
-              ><i class="material-icons left">chat</i>Nuestro producto</a
-            >
-          </div>
-
-          <div class="nav-btn">
-            <a class="waves-effect waves-light btn-large" href="info.html"
-              ><i class="material-icons left">info</i>Información</a
-            >
-          </div>
-
-          <div class="nav-btn">
-            <a class="waves-effect waves-light btn-large" href="aboutus.html"
-              ><i class="material-icons left">emoji_people</i>Acerca de
-              nosotros</a
-            >
-          </div>
+       
+        
+        <!--Miles de Usuarios-->
+        <div id="acts" class="box">
+            <img src="img/robot2.png" height="150px"/>
+            <p>Miles de Usuarios</p>
         </div>
-      </div>
-      <!-- NAV BUTTONS END -->
-      <div class="parallax-container">
-        <div class="parallax"><img src="img/dalle_wallpaper.png" /></div>
-      </div>
-    </main>
-    <!-- END CONTENIDO PRINCIPAL -->
+        <img id="lines" class="ocultar" src="img/lines.png" height="130px"/>
 
-    <!-- FOOTER -->
-    <footer class="page-footer grey">
-      <div class="footer-copyright">
-        <div class="container">© 2023 Skynet AI</div>
+         <!--Centro-->
+         <div class="center">
+          <img id="robup" src="img/up.png" height="100px"/>
+          <div id="test">
+              <p>ChatBot</p>
+              <p>Intuitivo</p>
+              <p>Eficiente</p>
+              <a id="probar" href="login.html">Probar</a>
+          </div>
+          <img id="robdown" src="img/down.png" height="50px"/>
+        </div>
+       
+        <!--Actualización Constante-->
+        <div id="resps" class="box">
+            <img src="img/respuesta.png" height="150px"/>
+            <p>Actualización Constante</p>
+        </div>
+
+        <img id="lines2" class="ocultar" src="img/lines.png" height="130px"/>
+
+        
+        
+        <!--Misión-->
+        <div id="mision" class="box">
+            <p>Mision</p>
+            <p>Ofrecer un Chat Bot de gran calidad a nuestros clientes para que puedan utilizarlo en sus empresas, sin importar el ámbito en el que se desarrollen ni los conocimientos que tengan acerca de la inteligencia artificial.</p>
+        </div>
+        <img id="lines3" class="ocultar" src="img/lines2.png" height="130px"/>
+
+        <!--Visión-->
+        <div id="vision" class="box">
+            <p>Visión</p>
+            <p>Convertirnos en el sinónimo de calidad y buen servicio en el diseño y personalización de Chat Bots para toda clase de empresas de todos los tamaños.</p>
+        </div>
+        <img id="lines4" class="ocultar" src="img/lines2.png" height="130px"/>
+
       </div>
+      
+    <footer class="footer">
+        <div class="container-permisos" >
+          <small>©Todos los derechos reservados Skynet AI. Esta página puede ser reproducida con fines
+            no lucrativos, siempre y cuando no se mutile, se cite la fuente completa y su dirección electrónica.
+        </small>
+        </div>
     </footer>
-    <!-- END FOOTER -->
-    <!-- Materialize JS -->
-    <script type="text/javascript" src="js/materialize.min.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+</body>
+
 </html>

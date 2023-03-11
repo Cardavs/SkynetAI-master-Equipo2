@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto</title>
+  <title>Skynet</title>
   <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,10 +22,10 @@
     <nav>
       <ul>
         <li id="logos">
-            <img src="img/skynetai_mini.png" height="50px"/>
+            <img src="img/skynetai_mini.png" height="40px"/>
             <h1>Skynet AI</h1>
             <div id="menu">
-              <a class="pulse" href="test.html">Inicio</a>
+              <a class="pulse" href="index.html">Inicio</a>
               <a class="pulse" href="contacto.html">Contacto</a>
             </div>
         </li>
@@ -38,6 +38,18 @@
   </div>
   <hr>  
       <div id="contenido">
+        <script
+          SameSite="None; Secure"
+          src="https://cdn.landbot.io/landbot-3/landbot-3.0.0.js"
+        ></script>
+        <div id="myLandbot" style="width: 100%; height: 700px"></div>
+        <script>
+          var myLandbot = new Landbot.Container({
+            container: "#myLandbot",
+            configUrl:
+              "https://storage.googleapis.com/landbot.online/v3/H-1501075-8OHZ4N7F11VC6A97/index.json",
+          });
+        </script>
       </div>
       
     <footer class="footer">
